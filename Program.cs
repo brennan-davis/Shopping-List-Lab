@@ -1,4 +1,5 @@
-﻿Dictionary<string, decimal> menuItems = new Dictionary<string, decimal>()
+﻿// Variables
+Dictionary<string, decimal> menuItems = new Dictionary<string, decimal>()
 {
     { "bacon", 2.99m },
     { "bread", 1.99m },
@@ -19,6 +20,7 @@ bool continueProgram = true;
 
 decimal listTotal = 0m;
 
+// Program
 while (continueProgram)
 {
     DrawTables();
@@ -51,6 +53,7 @@ while (continueProgram)
 
 Console.WriteLine("\nThank you for using our program to build your shopping list!");
 
+// Methods
 void DrawTables()
 {
     Console.Clear();
